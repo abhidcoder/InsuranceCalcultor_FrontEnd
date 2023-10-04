@@ -28,7 +28,7 @@ const InsuranceForm = ({setGlobal,setAmount,setresponse}) => {
 
     setFetching(true);
     if (!fetching) {
-       fetch('https://liberty.inspektlabs.com/get_lib_data', {
+       fetch('https://liberty.inspektlabs.com/fetch_lib_data', {
       //  fetch('http://127.0.0.1:5005/get_lib_data', {
         method: 'POST',
         headers: {
